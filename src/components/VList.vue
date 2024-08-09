@@ -51,7 +51,7 @@ const callouts = [
   }
 ]
 
-const getImage = computed(() => (image) => getAsset(image))
+const getImage = computed(() => (image: string) => getAsset(image))
 </script>
 
 <template>
